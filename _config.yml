@@ -1,6 +1,4 @@
 # Site settings
-# theme
-theme: jekyll-theme-leap-day
 title: My Jekyll Demo Site
 email: amandavisconti@gmail.com
 description: > 
@@ -12,7 +10,7 @@ github_username:  imacj
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-leap-day
 gems:
   - jekyll-feed
 exclude:
