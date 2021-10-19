@@ -1,1 +1,20 @@
+# Site settings
+# theme
 theme: jekyll-theme-leap-day
+title: My Jekyll Demo Site
+email: amandavisconti@gmail.com
+description: > 
+  My site for demonstrating how to build a Jekyll website hosted on GitHub Pages, built for a Programming Historian lesson.
+# baseurl: "" # the subpath of your site, e.g. /blog
+#url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: macintosh_i7
+github_username:  imacj
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
